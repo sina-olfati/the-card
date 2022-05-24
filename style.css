@@ -1,7 +1,75 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #bbd0ff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card {
-    background-color: aquamarine;
+    text-align: center;
+    background-image: url("./bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.person{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 20px;
+}
+
+.person img{
+    width: 100px;
+    border: solid 5px #636e878f;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+p{
+    margin: 0;
+    color: #333a49;
+}
+
+a{
+    margin: 0;
+    color: #5c5c5c;
+    text-decoration: none;
+}
+
+.name{
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.information{
+    border-left: solid 2px rgb(85, 87, 119);
+    margin: 10px;
+    padding-left: 10px;
+    width: 50%;
+    position: relative;
+    right: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+    margin: 10px 0;
+    padding: 0;
 }
