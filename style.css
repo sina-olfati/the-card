@@ -19,6 +19,13 @@ body{
     display: flex;
     flex-direction: row;
     overflow: hidden;
+    transition: 1s;
+    
+}
+
+.card:hover{
+    transform: scale(2);
+    box-shadow: 5px 5px 5px #798cb5b9;
 }
 
 .person{
